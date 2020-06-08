@@ -26,9 +26,9 @@ public class BatCameraExecute {
 
 
 	static AndroidDriver<MobileElement> driver;
-	public static String packageName = "com.sourcenext.pocketalksp";
+	public static String packageName = "packageName";
 	private static File classpathRoot = new File(System.getProperty("user.dir"));
-	private static String ANDROID_PHOTO_PATH = "/mnt/sdcard/Android/data/com.sourcenext.pocketalksp/files";
+	private static String ANDROID_PHOTO_PATH = "/mnt/sdcard/Android/data/**********/files";
 	private static String assetsPath = System.getProperty("user.dir")+"\\assets\\";
 	private  ArrayList<String> backButtons = new ArrayList<String>();
 	private boolean isFail=false;
